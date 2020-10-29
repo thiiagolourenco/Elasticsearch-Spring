@@ -14,7 +14,7 @@ import com.tlcb.elasticspring.repository.CustomerRepository;
 
 @SpringBootApplication
 @RestController
-public class ElasticSpringApplication {
+public class SpringBootElasticserachExampleApplication {
 
   @Autowired
   private CustomerRepository repository;
@@ -36,7 +36,6 @@ public class ElasticSpringApplication {
   }
 
   public static void main(String[] args) {
-    SpringApplication.run(ElasticSpringApplication.class, args);
+    SpringApplication.run(SpringBootElasticserachExampleApplication.class, args);
   }
-
 }
